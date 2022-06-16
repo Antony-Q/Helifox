@@ -1,3 +1,4 @@
+// Function to generate quotes and authors
 const generateQuote = function() {
     const quotes = [
         {
@@ -9,8 +10,19 @@ const generateQuote = function() {
             author: "- Thomas Edison"
         }
     ];
-    console.log("Hi");
-    }
-    window.onload = function() {
-        generateQuote();
-     };
+
+    // Chooses a random quote
+    let arrayIndex = Math.floor(Math.random() * quotes.length);
+    
+    // Creates DOM and grabs author and quote from array
+    document.getElementById("quotes").innerHTML = quotes[arrayIndex].quote;
+    document.getElementById("author").innerHTML = quotes[arrayIndex].author;
+
+}
+// When the window loads a quote will display
+window.onload = function() {
+    generateQuote();
+
+    // adds a button to generate quotes when clicked
+    document.getElementById("generate").addEventListener('click', generateQuote);
+}
