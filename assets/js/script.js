@@ -1,7 +1,5 @@
-function buildQuotes(quoteEl) {
-
-    const quoteEl = document.createElement('quotes');
-    const myQuotes = [
+const generateQuote = function() {
+    const quotes = [
         {
             quote: '"Educate the masses, elevate their standard of intelligence, and you will certainly have a successful nation."',
             author: "- Alexander Graham Bell"
@@ -10,7 +8,9 @@ function buildQuotes(quoteEl) {
             quote: '"ipsum lorem..."',
             author: "- Thomas Edison"
         }
-    ]
-    myQuotes.appendChild(quoteEl);
-
-};
+    ];
+    console.log("Hi");
+    }
+    window.onload = function() {
+        generateQuote();
+     };
