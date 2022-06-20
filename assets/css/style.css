@@ -22,6 +22,11 @@
     }
   }
 
+  div.container-fluid {
+    color: black;
+    background-color: black;
+  }
+
   a.navbar-brand {
     color:#fff;
   }
@@ -34,6 +39,11 @@
   .navbar .nav-link {
 
     color: #fff !important;
+  }
+
+  nav.navbar.navbar-expand-lg {
+    color:black;
+    background-color: black;
   }
 
   /* Color and format for quote-container */
@@ -76,9 +86,6 @@
     .quote-container {
         padding-top: 3vw;
         margin-right: 3%;
-    }
-    a.navbar-brand {
-        color:rgb(0, 0, 0);
     }
   }
  /* stylings for screens below 300 width */
