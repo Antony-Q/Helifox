@@ -22,7 +22,17 @@
     }
   }
 
+  a.navbar-brand {
+    color:#fff;
+  }
+
+  .navbar {
+    padding-top: 0%;
+    margin-top: 0%;
+  }
+
   .navbar .nav-link {
+
     color: #fff !important;
   }
 
@@ -67,8 +77,11 @@
         padding-top: 3vw;
         margin-right: 3%;
     }
+    a.navbar-brand {
+        color:rgb(0, 0, 0);
+    }
   }
-
+ /* stylings for screens below 300 width */
   @media (max-width: 300px) {
     .quote-container {
         display: none;
