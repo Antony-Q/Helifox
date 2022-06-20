@@ -13,7 +13,7 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
-    <!-- <link rel="stylesheet" href="./assets/css/style.css" /> -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
 
   <!-- begin body -->
@@ -25,8 +25,8 @@
           background-repeat: no-repeat;
           background-size: cover;
           background-color: black;
-          height: 100vh;
           padding-top: 20vh;
+          overflow: scroll;
         }
 
         /* Height for devices larger than 992px */
@@ -36,6 +36,13 @@
             padding-top: 5%;
           }
         }
+
+        @media (max-width: 993px) {
+    #intro {
+      padding-top: 5%;
+
+    }
+  }
 
         .navbar .nav-link {
           color: #fff !important;
@@ -171,7 +178,6 @@
         <div class="quote-container">
           <p id="quotes"></p>
           <p id="author"></p>
-          <button id="generate">Generate</button>
         </div>
       </div>
       <!-- Background image -->
