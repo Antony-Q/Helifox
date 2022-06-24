@@ -33,11 +33,23 @@
 
   a.navbar-brand {
     color:#fff;
+    height: 2vmax;
   }
 
   .navbar {
     padding-top: 0%;
     margin-top: 0%;
+  }
+
+  #fb-logo-btn {
+    max-height: 32px;
+    min-height: 32px;
+  }
+
+  a.btn.btn-primary.fb-logo-btn {
+    max-height: 32px;
+    min-height: 32px;
+    display: contents;
   }
 
   .navbar .nav-link {
