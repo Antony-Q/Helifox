@@ -3,9 +3,8 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
-  display: static;
   padding-top: 20vh;
-  padding-bottom: 5%;
+  overflow: auto;
 }
 
 /* Height for devices larger than 992px */
@@ -43,7 +42,6 @@
   border-radius: 0.375rem;
   padding: 0;
   margin: 0;
-  height: fit-content;
   background-color: #fff;
 }
 
