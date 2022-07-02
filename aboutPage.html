@@ -34,8 +34,8 @@
     <link rel="manifest" href="./favicon_io/site.webmanifest" />
   </head>
 
-  <!-- begin body -->
-  <body>
+  <!-- begin body section -->
+  <body id="grad">
     <header>
       <style>
         #intro {
@@ -69,7 +69,7 @@
       <!-- Navbar -->
       <nav class="navbar navbar-expand-lg" id="homepage">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#">HELIFOX</a>
+          <a class="navbar-brand" href="./index.html">HELIFOX</a>
           <button
             class="navbar-toggler"
             type="button"
@@ -91,25 +91,8 @@
               <li class="nav-item">
                 <a class="nav-link" href="#">About us</a>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Technologies
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#"></a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Technologies</a>
               </li>
             </ul>
           </div>
@@ -146,10 +129,6 @@
             </div>
           </div>
         </div>
-        <div class="quote-container">
-          <p id="quotes"></p>
-          <p id="author"></p>
-        </div>
       </div>
     </header>
     <!--Main Navigation-->
@@ -160,332 +139,280 @@
         <!--Section: Heading-->
         <section>
           <div class="row">
-            <div class="col-md-6 gx-5 mb-4" style="box-shadow: #e7f1ff; border: solid #e7f1ff; padding: 0;">
-                <h3 style="
-                    text-align: center;
-                    color: #0c63e4;
-                    background-color: #e7f1ff;
-                    padding: 12px;
-                    margin: 0;
-                    ">
-                    <strong>Our Technologies</strong></h3>
-                <p class="text-dark" style="padding: 12px;">
-                    We are dedicated to providing high quality services to our customers in Texas. From basic telecommunications solutions to more advanced Telework and Unified Communications systems, Helifox delivers smart solutions to any type of organization, regardless of size or location.
-                </p>
-                <p style="text-align: center"><strong>Take a look through the following tabs to find out what we specialize in!</strong></p>
-                <!-- <p class="text-muted">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod
-                  itaque voluptate nesciunt laborum incidunt. Officia, quam
-                  consectetur. Earum eligendi aliquam illum alias, unde optio
-                  accusantium soluta, iusto molestiae adipisci et?
-                </p> -->
-              </div>
-            <div class="col-md-6 gx-5 mb-4">
-              <div class="accordion" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-        Accordion Item #1
-      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-        Accordion Item #2
-      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-        Accordion Item #3
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-      <div class="accordion-body">
-        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
-      </div>
-    </div>
-  </div>
-</div>
-            </div>
-          </div>
-        </section>
-        <!--Section: End Heading-->
-
-        <hr class="my-5" />
-
-        <!--Section: Cards Horizontal-->
-        <section class="text-center">
-          <h4 class="mb-5"><strong>Facilis consequatur eligendi</strong></h4>
-
-          <div class="row">
-            <div class="col-lg-4 col-md-12 mb-4">
-              <div class="card">
-                <div
-                  class="bg-image hover-overlay ripple"
-                  data-mdb-ripple-color="light"
-                >
-                  <img
-                    src="https://mdbootstrap.com/img/new/standard/nature/184.jpg"
-                    class="img-fluid"
-                  />
-                  <a href="#!">
-                    <div
-                      class="mask"
-                      style="background-color: rgba(251, 251, 251, 0.15)"
-                    ></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>
+            <!-- beginning of intro text -->
+            <div class="container text-center mt-0 mb-2">
+              <h1 class="mb-0">Meet our agents</h1>
+              <span
+                >Lorem Ipsum is simply dummy text of the printing and
+                typesetting industry. Lorem Ipsum</span
+              >
             </div>
 
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card">
-                <div
-                  class="bg-image hover-overlay ripple"
-                  data-mdb-ripple-color="light"
-                >
-                  <img
-                    src="https://mdbootstrap.com/img/new/standard/nature/023.jpg"
-                    class="img-fluid"
-                  />
-                  <a href="#!">
-                    <div
-                      class="mask"
-                      style="background-color: rgba(251, 251, 251, 0.15)"
-                    ></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>
-            </div>
-
-
-            <div class="col-lg-4 col-md-6 mb-4">
-              <div class="card">
-                <div
-                  class="bg-image hover-overlay ripple"
-                  data-mdb-ripple-color="light"
-                >
-                  <img
-                    src="https://mdbootstrap.com/img/new/standard/nature/111.jpg"
-                    class="img-fluid"
-                  />
-                  <a href="#!">
-                    <div
-                      class="mask"
-                      style="background-color: rgba(251, 251, 251, 0.15)"
-                    ></div>
-                  </a>
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">
-                    Some quick example text to build on the card title and make
-                    up the bulk of the card's content.
-                  </p>
-                  <a href="#!" class="btn btn-primary">Button</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <!--Section: End Body-->
-
-        <hr class="my-5" />
-
-        <!--Section: Begin Footer-->
-        <section class="mb-5">
-          <h4 class="mb-5 text-center">
-            <strong>Contact us!</strong>
-          </h4>
-
-          <!-- Section: Contact Card and Inner Components -->
-          <div class="row d-flex justify-content-center">
-            <div class="col-md-4">
-              <div class="contact-card">
-                <div class="card">
-                  <div
-                    class="bg-image hover-overlay ripple"
-                    data-mdb-ripple-color="light"
-                  >
+            <!-- beginning of team cards -->
+            <div class="container mt-3 mb-5">
+              <div class="row">
+                <!-- team card 1 -->
+                <div class="col-md-3">
+                  <div class="bg-white p-3 text-center rounded box">
                     <img
-                      src="./assets/images/helifox-logo-2.png"
-                      class="img-fluid"
+                      class="img-responsive rounded-circle"
+                      src="https://i.imgur.com/uppKNuF.jpg"
+                      width="90"
                     />
-                    <a href="#!">
-                      <div
-                        class="mask"
-                        style="background-color: rgba(251, 251, 251, 0.15)"
-                      ></div>
-                    </a>
+                    <h5 class="mt-3 name">Samuel Plamer</h5>
+                    <span class="work d-block">Comapay agents house</span
+                    ><span class="work d-block">real estate</span>
+                    <div class="mt-4 about">
+                      <span
+                        >is a long established fact that eader&nbsp; will be
+                        distracted by the readable content.</span
+                      >
+                    </div>
+                    <div class="mt-4">
+                      <h6 class="v-profile">View Profile</h6>
+                    </div>
                   </div>
-                  <div class="card-body">
-                    <h5 class="card-title">We are located at:</h5>
-                    <p class="card-text">
-                      19141 STONE OAK PARKWAY SUITE 104, 
-                      <br />SAN ANTONIO,
-                      TEXAS 
-                      <br /><br />
-                      info@helifox.com
-                      <br /><br />
-                      Tel: 877.642.3926
-                      <br /><br />
-                      Available
-                      <br />
-                      Mon - Fri: 8am - 6pm
-                      <br />
-                      ​​Saturday: 9am - 1pm
-                      <br />
-                      ​Sunday: CLOSED
-                      <br />
-                    </p>
-                    <a
-                      href="#https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.helifox.com"
-                      class="btn btn-primary fb-logo-btn"
-                    >
-                      <img
-                        src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg"
-                        alt="facebook-logo"
-                        id="fb-logo-btn"
-                      />
-                    </a>
-                    <a
-                      href="#http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.helifox.com"
-                      class="btn btn-primary"
-                      >Share</a
-                    >
-                    <button
-                      type="button"
-                      class="btn btn-warning"
-                      data-bs-toggle="modal"
-                      data-bs-target="#exampleModal"
-                      data-bs-whatever="@mdo"
-                    >
-                      Send us an email
-                    </button>
+                </div>
 
-                    <div
-                      class="modal fade"
-                      id="exampleModal"
-                      tabindex="-1"
-                      aria-labelledby="exampleModalLabel"
-                      aria-hidden="true"
-                    >
+                <!-- team card 2 -->
+                <div class="col-md-3">
+                  <div class="bg-white p-3 text-center rounded box">
+                    <img
+                      class="img-responsive rounded-circle"
+                      src="https://i.imgur.com/oJmLthK.jpg"
+                      width="90"
+                    />
+                    <h5 class="mt-3 name">Nancy Markus</h5>
+                    <span class="work d-block">Comapay agents house</span
+                    ><span class="work d-block">real estate</span>
+                    <div class="mt-4 about">
+                      <span
+                        >is a long established fact that eader&nbsp; will be
+                        distracted by the readable content.</span
+                      >
+                    </div>
+                    <div class="mt-4">
+                      <h6 class="v-profile">View Profile</h6>
+                    </div>
+                  </div>
+                </div>
 
-                    <!-- Section: Begin Modal Content -->
-                      <div class="modal-dialog">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">
-                              Email us:
-                            </h5>
-                            <button
-                              type="button"
-                              class="btn-close"
-                              data-bs-dismiss="modal"
-                              aria-label="Close"
-                            ></button>
-                          </div>
-                          <div class="modal-body">
-                            <form>
-                              <div class="mb-3">
-                                <label
-                                  for="first-name-label"
-                                  class="col-form-label"
-                                  >First name:</label
-                                >
-                                <input
-                                  type="text"
-                                  class="form-control"
-                                  id="first-name-input"
-                                />
-                                </div>
-                                <div class="mb-3">
-                                <label
-                                    for="last-name-label"
-                                    class="col-form-label"
-                                    >Last name:</label
-                                >
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="last-name-input"
-                                />
-                                </div>
-                                <div class="mb-3">
-                                <label
-                                    for="email-label"
-                                    class="col-form-label"
-                                    >Email:</label
-                                >
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="email-input"
-                                />
-                                </div>
-                                <label
-                                    for="phone-label"
-                                    class="col-form-label"
-                                    >Phone number:</label
-                                >
-                                <input
-                                    type="text"
-                                    class="form-control"
-                                    id="phone-input"
-                                />
-                                </div>
-                                <div class="modal-body">
-                                <label for="message-text"
-                                    class="col-form-label"
-                                    >Tell us more:</label
-                                >
-                                <textarea
-                                    class="form-control"
-                                    id="message-text"
-                                ></textarea>
+                <!-- team card 3 -->
+                <div class="col-md-3">
+                  <div class="bg-white p-3 text-center rounded box">
+                    <img
+                      class="img-responsive rounded-circle"
+                      src="https://i.imgur.com/HFpxxJz.jpg"
+                      width="90"
+                    />
+                    <h5 class="mt-3 name">Martha Col</h5>
+                    <span class="work d-block">Comapay agents house</span
+                    ><span class="work d-block">real estate</span>
+                    <div class="mt-4 about">
+                      <span
+                        >is a long established fact that eader&nbsp; will be
+                        distracted by the readable content.</span
+                      >
+                    </div>
+                    <div class="mt-4">
+                      <h6 class="v-profile">View Profile</h6>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- team card 4 -->
+                <div class="col-md-3">
+                  <div class="bg-white p-3 text-center rounded box">
+                    <img
+                      class="img-responsive rounded-circle"
+                      src="https://i.imgur.com/MZm1LNz.jpg"
+                      width="90"
+                    />
+                    <h5 class="mt-3 name">Marry Jones</h5>
+                    <span class="work d-block">Comapay agents house</span
+                    ><span class="work d-block">real estate</span>
+                    <div class="mt-4 about">
+                      <span
+                        >is a long established fact that eader&nbsp; will be
+                        distracted by the readable content.</span
+                      >
+                    </div>
+                    <div class="mt-4">
+                      <h6 class="v-profile">View Profile</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <hr class="my-5" />
+
+            <!--Section: Begin Footer-->
+            <section class="mb-5">
+              <h4 class="mb-5 text-center">
+                <strong>Contact us!</strong>
+              </h4>
+
+              <!-- Section: Contact Card and Inner Components -->
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-4">
+                  <div class="contact-card">
+                    <div class="card">
+                      <div
+                        class="bg-image hover-overlay ripple"
+                        data-mdb-ripple-color="light"
+                      >
+                        <img
+                          src="./assets/images/helifox-logo-2.png"
+                          class="img-fluid"
+                        />
+                        <a href="#!">
+                          <div
+                            class="mask"
+                            style="background-color: rgba(251, 251, 251, 0.15)"
+                          ></div>
+                        </a>
+                      </div>
+                      <div class="card-body">
+                        <h5 class="card-title">We are located at:</h5>
+                        <p class="card-text">
+                          19141 STONE OAK PARKWAY SUITE 104,
+                          <br />SAN ANTONIO, TEXAS <br /><br />
+                          info@helifox.com
+                          <br /><br />
+                          Tel: 877.642.3926
+                          <br /><br />
+                          Available
+                          <br />
+                          Mon - Fri: 8am - 6pm
+                          <br />
+                          ​​Saturday: 9am - 1pm
+                          <br />
+                          ​Sunday: CLOSED
+                          <br />
+                        </p>
+                        <a
+                          href="#https://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.helifox.com"
+                          class="btn btn-primary fb-logo-btn"
+                        >
+                          <img
+                            src="https://www.vectorlogo.zone/logos/facebook/facebook-official.svg"
+                            alt="facebook-logo"
+                            id="fb-logo-btn"
+                          />
+                        </a>
+                        <a
+                          href="#http://www.facebook.com/sharer.php?u=http%3A%2F%2Fwww.helifox.com"
+                          class="btn btn-primary"
+                          >Share</a
+                        >
+                        <button
+                          type="button"
+                          class="btn btn-warning"
+                          data-bs-toggle="modal"
+                          data-bs-target="#exampleModal"
+                          data-bs-whatever="@mdo"
+                        >
+                          Send us an email
+                        </button>
+
+                        <div
+                          class="modal fade"
+                          id="exampleModal"
+                          tabindex="-1"
+                          aria-labelledby="exampleModalLabel"
+                          aria-hidden="true"
+                        >
+                          <!-- Section: Begin Modal Content -->
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">
+                                  Email us:
+                                </h5>
+                                <button
+                                  type="button"
+                                  class="btn-close"
+                                  data-bs-dismiss="modal"
+                                  aria-label="Close"
+                                ></button>
                               </div>
-                            </form>
-                          </div>
-                          <div class="modal-footer">
-                            <button
-                              type="button"
-                              class="btn btn-secondary"
-                              data-bs-dismiss="modal"
-                            >
-                              Close
-                            </button>
-                            <button type="button" class="btn btn-warning">
-                              Send message
-                            </button>
+                              <div class="modal-body">
+                                <form>
+                                  <div class="mb-3">
+                                    <label
+                                      for="first-name-label"
+                                      class="col-form-label"
+                                      >First name:</label
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="first-name-input"
+                                    />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label
+                                      for="last-name-label"
+                                      class="col-form-label"
+                                      >Last name:</label
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="last-name-input"
+                                    />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label
+                                      for="email-label"
+                                      class="col-form-label"
+                                      >Email:</label
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="email-input"
+                                    />
+                                  </div>
+                                  <div class="mb-3">
+                                    <label
+                                      for="phone-label"
+                                      class="col-form-label"
+                                      >Phone number:</label
+                                    >
+                                    <input
+                                      type="text"
+                                      class="form-control"
+                                      id="phone-input"
+                                    />
+                                  </div>
+                                  <div class="modal-body">
+                                    <label
+                                      for="message-text"
+                                      class="col-form-label"
+                                      >Tell us more:</label
+                                    >
+                                    <textarea
+                                      class="form-control"
+                                      id="message-text"
+                                    ></textarea>
+                                  </div>
+                                </form>
+                              </div>
+                              <div class="modal-footer">
+                                <button
+                                  type="button"
+                                  class="btn btn-secondary"
+                                  data-bs-dismiss="modal"
+                                >
+                                  Close
+                                </button>
+                                <button type="button" class="btn btn-warning">
+                                  Send message
+                                </button>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
@@ -493,7 +420,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </section>
       </div>
@@ -560,6 +487,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
