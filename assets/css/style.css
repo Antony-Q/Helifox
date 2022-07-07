@@ -1,5 +1,5 @@
 #intro {
-  background-image: url("./assets/images/world_1.jpg");
+  background-image: "/assets/images/world_1.jpg";
   background-repeat: no-repeat;
   background-size: cover;
   background-color: black;
@@ -69,6 +69,13 @@ div.container-fluid {
 a.navbar-brand {
   color: #fff;
   height: 2vmax;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
 
 .navbar {
